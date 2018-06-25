@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>French Counter 1-100</title>
+    <meta name="description" content="A simple UI to help you translate integer to French">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="fr-counter.css">
+
+</head>
+
+<body>
+    <main role="main" class="container">
+
+        <article>
+            <h1>FR digits translator</h1>
+            <p>A simple user interface to help you quickly translate integer between 1 and 999 to French. Try it out by entering
+                any digits below and the result will appear as you type.</p>
+        </article>
+
+        <section class="panel panel-defualt fr-result">
+            <div id="fr_output"> - </div>
+        </section>
+
+        <form>
+            <label for="fr_input">Enter your digits here</label>
+            <div class="clearfix"></div>
+            <div class="form-group col-md-9 p0">
+                <input id="fr_input" class="form-control" type="text" placeholder="Enter a number"></input>
+            </div>
+            <button class="btn btn-default brand-primary btn-bg reset_btn col-md-3">RESET</button>
+        </form>
+        <div class="clearfix"></div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© 2018 - jeff-ong.com </span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+    <script src="fr-counter.js"></script>
+</body>
+
+</html>
