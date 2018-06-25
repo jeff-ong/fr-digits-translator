@@ -1,4 +1,6 @@
 ## French Digits Translator
 A simple user interface to help you quickly translate integer between 1 and 999 to French. 
 
-[Live demo]();
+I made this to help myself learn to count in French.
+
+[Live demo](https://jeff-ong.github.io/fr-digits-translator/)
