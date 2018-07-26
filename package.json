@@ -1,0 +1,19 @@
+{
+  "name": "fr-digits-translator",
+  "version": "1.0.0",
+  "description": "A simple user interface to help you quickly translate integer between 1 and 999 to French.",
+  "main": "fr-counter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-ong/fr-digits-translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeff-ong/fr-digits-translator/issues"
+  },
+  "homepage": "https://github.com/jeff-ong/fr-digits-translator#readme"
+}
