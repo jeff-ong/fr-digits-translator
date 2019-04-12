@@ -4,7 +4,7 @@ A simple user interface to help you quickly translate integer between 1 and 999 
 
 I made this to help myself learn to count in French.
 
-[Live demo](https://jeff-ong.github.io/fr-digits-translator/)
+[Live demo](https://fr-translator.herokuapp.com/)
 
 ## Getting Started
 
